@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+}
+
+.header-section {
+    background-image: url("img/background-header.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 345px;
+    text-align: center;
+    color: black;
+    justify-content: space-around;
+    padding-top: 7%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.header-section > img {
+    height: 10%;
+    display: flex;
+    margin-top: -2.1em;
+    margin-left: 1em;
+}
+
+.header-section > h2{
+    font-weight:100;
+    color:grey;
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, 1);
+    margin:0;
+}
+.header-section > h1 {
+    font-size: 2em;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
+    margin-top: .2rem;
+}
+
+.header-section > p {
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, 1);
+    opacity: 0.7;
+    margin: 0;
+    font-style: italic;
+}
+
+button{
+    font-family:'Lato', sans-serif;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    height: 35px;
+    width: 90px;
+    margin-top: 3rem;
+    border-radius: 20px;
+    padding-bottom:5px;
+    color: white;
+    margin-right: 10px;
+}
+
+button.btn-learn{
+    background-color: #332E62;
+}
+
+button.btn-download{
+    background-color: #F42257;
+}
+
+.middle-section{
+    margin: 30px;
+    text-align: center;
+}
+
+.middle-section ul{
+    padding:0;
+}
+
+.middle-section li{
+    display: inline-block;
+    text-decoration: none;
+    width: 29%;
+    text-align: center;   
+}
+
+.middle-section h2{
+    font-size:1.5rem;
+    font-style:italic;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+}
+
+.middle-section p{
+    font-size: .67rem;
+    text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .1);
+    margin: 10px;
+}
+
+.bottom-section{
+    margin-top: 35px;
+    background-image: url('img/moon.jpg');
+    height: 450px;
+    background-size: 100% 135%;
+    color:white;
+    text-align:center;
+}
+
+.bottom-section article{
+    width: 350px;
+    border: 2px solid #FFAA51;
+    padding: 15px;
+    margin-left: 80px;
+    background-color: #29333D;
+}
+
+.bottom-section h3{
+    font-style: italic;
+    font-size: 1.3rem;
+}
+
+.sub-title{
+    margin: 30px;
+    font-size: .6rem;
+    font-style: italic;
+    text-align: center;
+}
+
+.art-content{
+    font-size: .7rem;
+    text-align: center;
+}
+
+.bottom-section button{
+    font-size:.7rem;
+    color:black;
+    font-weight:700;
+    width:90px;
+    height:90px;
+    border-radius: 50%;
+    background:  linear-gradient(to right, rgba(255,146,10,1) 0%, rgb(255, 207, 47) 100%);;
+    margin: 40px
+}
+
+.author{
+    font-size: .7rem;
+    text-align: left;
+    margin-left: 80px;
+    margin-top: 50px
+}
+
+.softuni{
+    color: #FFAA51;
+    text-transform: uppercase; 
+
+}
