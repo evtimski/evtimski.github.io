@@ -1,0 +1,65 @@
+::selection{
+	color: #486e4a;
+	background-color: #c3ecec;
+}
+
+body{
+	background-color: #f9f9f9;
+}
+
+.sticky-top{
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	border-bottom: 1px solid red;
+}
+
+.sticky-top + .container{
+	padding-top: 61px;
+}
+
+.section-title{
+	margin: 15px 0 0px;
+	display: flex;
+	background-color: #486e4a;
+	color: #f2f2f2;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 5rem;
+	background-size: cover;
+}
+
+.section-title-white{
+	background-color: #f9f9f9;
+	margin: 15px 0 15px;
+	color: #486e4a;
+}
+
+.section-title-white h2{
+	font-size: 3rem;
+}
+
+.article h5 {
+	background-color: #c3ecec;
+	padding: 10px;
+	color: #486e4a;
+	border-radius: 4px;
+	text-align: center;
+	transition: .5s;
+}
+
+.article h5:hover{
+	border-bottom: 2px solid red;
+	color: #07520b;
+	margin-left: -3px;
+	width: 103%;
+}
+
+.mug-forest{
+	background: url(../img/mug_forest.jpg);
+	height: 500px;
+	background-attachment: fixed;
+	padding-top: 4rem;
+}
